@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="pl">
+<head>
+  <meta charset="UTF-8">
+  <title>Wszystko o Konradzie</title>
+  <style>
+    body {
+      font-family: Comic Sans MS, sans-serif;
+      background: linear-gradient(120deg, #a1c4fd, #c2e9fb);
+      color: #333;
+      text-align: center;
+      padding: 30px;
+      animation: gradient 5s infinite alternate;
+    }
+
+    @keyframes gradient {
+      0% { background: linear-gradient(120deg, #a1c4fd, #c2e9fb); }
+      100% { background: linear-gradient(120deg, #c2e9fb, #a1c4fd); }
+    }
+
+    h1 {
+      color: #01579b;
+      font-size: 36px;
+    }
+
+    .card {
+      background-color: white;
+      border-radius: 20px;
+      box-shadow: 0 6px 12px rgba(0,0,0,0.15);
+      max-width: 600px;
+      margin: auto;
+      padding: 25px;
+    }
+
+    h2 {
+      color: #0288d1;
+      margin-top: 20px;
+    }
+
+    p {
+      font-size: 20px;
+      line-height: 1.6;
+    }
+
+    button {
+      margin-top: 20px;
+      padding: 10px 20px;
+      font-size: 18px;
+      background-color: #4db6ac;
+      color: white;
+      border: none;
+      border-radius: 10px;
+      cursor: pointer;
+    }
+
+    button:hover {
+      background-color: #00796b;
+    }
+  </style>
+</head>
+<body>
+
+  <h1>🎉 Cześć! Mam na imię Konrad 🎉</h1>
+
+  <div class="card">
+
+    <h2>👦 O mnie</h2>
+    <p>Mam 15 lat i mieszkam w pięknej miejscowości Linia w Polsce.</p>
+
+    <h2>🏡 Moja rodzina</h2>
+    <p>Mieszkam z moją kochaną mamą, bohaterem tatą i uroczą siostrą. Bardzo ich kocham! 💖</p>
+
+    <h2>⚽ Moje hobby</h2>
+    <p>Uwielbiam piłkę nożną! Moja ulubiona drużyna to FC Barcelona. 💙❤️</p>
+    <p>Lubię też grać w gry komputerowe 🎮 i oglądać filmy 🎬.</p>
+
+    <h2>🏫 Moja szkoła</h2>
+    <p>Uczę się w klasie 8 w Szkole Podstawowej w Linii. Lubię uczyć się nowych rzeczy każdego dnia!</p>
+
+    <button onclick="sayHi()">👋 Kliknij, aby się przywitać!</button>
+
+  </div>
+
+  <script>
+    function sayHi() {
+      alert("Cześć! 😊 Dziękuję za odwiedzenie mojej strony!");
+    }
+  </script>
+
+</body>
+</html>
